@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Neucha&display=swap');
+
+body {
+  background-image: url(../images/backgrounds/bg-1.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center center;
+}
+
+.benshade {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.hand{
+  font-family: 'Neucha', cursive;
+}
+
+
+
+#banner {
+  padding-top: 15rem;
+  padding-bottom: 20rem;
+}
+
+@media (max-width: 991.98px){
+    .rellax{
+        ~webkit-transform: translate3d(0,0,0)!important;
+            transform: translate(0,0,0)!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+        font-size: 2.5rem;
+    }
+}
